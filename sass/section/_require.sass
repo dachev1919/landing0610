@@ -1,0 +1,42 @@
+.require
+  padding: 68px 0 84px 0
+  &_block
+    margin: 33px 0
+    &_nmb
+      margin-bottom: 0px
+  &_title
+    color: #1ca8c3
+    font-size: 22px
+    font-weight: 400
+    &_red
+      color: #ff5656
+
+  &_list
+    list-style-type: none
+    padding-left: 50px
+    margin-top: 22px
+    li
+      position: relative
+      margin-bottom: 10px
+      color: #222222
+      font-size: 17px
+      font-weight: 400
+      line-height: 24px
+      &:before
+        content: ''
+        display: block
+        position: absolute
+        left: -32px
+        top: 3px
+        width: 21px
+        height: 20px
+        background: url("../icons/done.png") center ( center/cover ) no-repeat
+    &_red
+      li
+        &:before
+          background: url("../icons/done-red.png") center ( center/cover ) no-repeat
+
+  &_descr
+    font-size: 17px
+    color: #1ca8c3
+    font-weight: 300

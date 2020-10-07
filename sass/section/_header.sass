@@ -1,0 +1,74 @@
+header
+  position: relative
+nav
+  position: fixed
+  top: 0
+  width: 100%
+  height: 50px
+  background-color: #212121
+  z-index: 3
+.menu
+  display: flex
+  justify-content: space-between
+  padding: 13px 70px
+  margin: 0
+  list-style-type: none
+  &_link
+    color: #ffffff
+    font-size: 15px
+    font-weight: 300
+    &:hover
+      color: rgba(255, 255, 255, 0.8)
+      text-decoration: none
+  &_item
+    border-right: 2px dotted black
+    padding-right: 30px
+    &:last-child
+      border-right: none
+.subheader
+  margin-top: 50px
+  position: absolute
+  width: 100%
+  height: 84px
+  background-color: rgba(0, 0, 0, .6)
+  &_logo
+    max-width: 100%
+    display: block
+    margin-top: 16px
+  &_official
+    margin-top: 6px
+    opacity: 0.5
+    color: #ffffff
+    font-size: 13px
+    font-weight: 300
+  &_call
+    text-align: right
+    margin-top: 19px
+    color: #ffffff
+    font-size: 12px
+    font-weight: 300
+  &_phone
+    margin-top: 8px
+    text-align: right
+    display: block
+    color: #ffffff
+    font-size: 22px
+    font-weight: 400
+    text-transform: uppercase
+    line-height: 12px
+    &:hover
+      color: rgba(255, 255, 255, 0.8)
+      text-decoration: none
+  &_btn
+    margin-top: 19px
+    width: 172px
+    height: 46px
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12)
+    border: none
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21)
+    color: #ffffff
+    font-size: 14px
+    font-weight: 400
+    text-transform: uppercase
+    border-radius: 4px

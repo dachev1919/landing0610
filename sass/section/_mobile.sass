@@ -1,0 +1,75 @@
+.mobile
+  min-height: 864px
+  padding: 48px 0 79px 0
+  background: url("../img/phone/phone_bg.png")
+  .row
+    margin-top: 32px
+  &_subtitle
+    color: #222222
+    font-size: 17px
+    font-weight: 400
+    text-align: center
+  &_item
+    position: relative
+    width: 320px
+    height: 280px
+    margin: 0 auto 19px
+    padding-top: 92px
+    &_1
+      background: url("../img/app/app-1.png") center (center / cover) no-repeat
+    &_2
+      background: url("../img/app/app-2.png") center (center / cover) no-repeat
+    &_3
+      background: url("../img/app/app-3.png") center (center / cover) no-repeat
+    &_4
+      background: url("../img/app/app-4.png") center (center / cover) no-repeat
+    &_5
+      background: url("../img/app/app-5.png") center (center / cover) no-repeat
+    &_6
+      background: url("../img/app/app-6.png") center (center / cover) no-repeat
+    &-plus
+      display: flex
+      justify-content: center
+      align-items: center
+      position: absolute
+      bottom: 35px
+      left: 50%
+      transform: translateX(-50%)
+      width: 26px
+      height: 26px
+      background-color: #000000
+      border-radius: 100%
+      margin: 0 auto
+      cursor: pointer
+      &:before
+        content: ''
+        display: block
+        width: 14px
+        height: 2px
+        background-color: #1eacc7
+        transition: 0.5ms
+      &:after
+        content: ''
+        position: absolute
+        left: 50%
+        transform: translateX(-50%)
+        display: block
+        width: 2px
+        height: 14px
+        background-color: #1eacc7
+        transition: 0.5ms
+      &:hover
+        &:before
+          width: 16px
+          height: 2px
+          background-color: rgba(255, 255, 255, 0.68)
+        &:after
+          width: 2px
+          height: 16px
+          background-color: rgba(255, 255, 255, 0.68)
+      &:active
+        &:after
+          display: none
+      img
+        width: 60%
+
