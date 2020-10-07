@@ -5,9 +5,12 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <script src="https://kit.fontawesome.com/d8e5fa3cc1.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
@@ -17,26 +20,32 @@
         <div class="container">
             <ul class="menu">
                 <li class="menu_item"><a href="#" class="menu_link">Главная</a></li>
-                <li class="menu_item"><a href="#" class="menu_link">Со своим автомобилем</a></li>
-                <li class="menu_item"><a href="#" class="menu_link">На автомобиле компании</a></li>
+                <li class="menu_item"><a href="#require" class="menu_link">Со своим автомобилем</a></li>
+                <li class="menu_item"><a href="#require" class="menu_link">На автомобиле компании</a></li>
                 <li class="menu_item"><a href="#" class="menu_link">Требования</a></li>
                 <li class="menu_item"><a href="#" class="menu_link">Контакты</a></li>
                 <li class="menu_item"><a href="#" class="menu_link">Оставить заявку</a></li>
             </ul>
         </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     </nav>
     <div class="subheader">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 offset-md-1">
+                <div class="col-6 col-md-4 offset-md-1">
                     <a href="#" class="subheader_logo"><img src="img/header/logo.png" alt=""></a>
                     <div class="subheader_official">Официальный партнер Uber в Москве</div>
                 </div>
-                <div class="col-md-2 offset-md-2">
+                <div class="xs-hidden col-md-3 offset-md-1 col-xl-2 offset-xl-2">
                     <div class="subheader_call">Звоните нам ежедневно</div>
                     <a href="tel:84957970988" class="subheader_phone">8 495 797 09 88</a>
                 </div>
-                <div class="col-md-2">
+                <div class="col-6 col-md-3 col-lg-2">
+                    <a href="tel:84957970988" class="xs-visible subheader_phone">8 495 797 09 88</a>
                     <button class="subheader_btn">
                         заказать звонок
                     </button>
@@ -48,8 +57,8 @@
 <section class="promo">
     <div class="container">
         <div class="row">
-            <div class="col-md-10 offset-md-1">
-                <h1 class="promo_title">КОМПАНИЯ UBER PARTNERS!</h1>
+            <div class="col-md-12 col-lg-10 offset-lg-1">
+                <h1 class="promo_title">КОМПАНИЯ<br> UBER PARTNERS!</h1>
                 <h2 class="promo_subtitle">ПРИГЛАШАЕМ ВОДИТЕЛЕЙ! НА СВОЕМ АВТО!</h2>
                 <div class="promo_descr">
                     Компания UBER  динамически развивающаяся. Компания на рынке занимает лидирующее место среди
@@ -175,42 +184,42 @@
         <div class="section_title">мобильное приложение убер</div>
         <div class="section_subtitle">Сделайте заказ, совершите поездку и оплатите ее стоимость, используя свой мобильный телефон</div>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-6 col-lg-4">
                 <div class="mobile_item mobile_item_1">
                     <div class="mobile_item-subtitle">оформление заказа одним касанием</div>
                     <div class="mobile_item-plus">
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6 col-lg-4">
                 <div class="mobile_item mobile_item_2">
                     <div class="mobile_item-subtitle">надежная подача</div>
                     <div class="mobile_item-plus">
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6 col-lg-4">
                 <div class="mobile_item mobile_item_3">
                     <div class="mobile_item-subtitle">прозрачные цены</div>
                     <div class="mobile_item-plus">
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6 col-lg-4">
                 <div class="mobile_item mobile_item_4">
                     <div class="mobile_item-subtitle">безналичная оплата</div>
                     <div class="mobile_item-plus">
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6 col-lg-4">
                 <div class="mobile_item mobile_item_5">
                     <div class="mobile_item-subtitle">обратная связь</div>
                     <div class="mobile_item-plus">
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6 col-lg-4">
                 <div class="mobile_item mobile_item_6">
                     <div class="mobile_item-subtitle">разделить
                         стоимость поездки</div>
@@ -235,7 +244,7 @@
         </div>
     </div>
 </section>
-<section class="require">
+<section class="require" id="require">
     <div class="container">
         <div class="section_label">возможности</div>
         <div class="section_title">условия и требования</div>

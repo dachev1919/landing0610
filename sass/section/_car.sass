@@ -23,3 +23,33 @@
     width: 100%
     background-color: #070716
     z-index: -1
+
+@media (max-width: 992px)
+  .choice
+    min-height: 800px
+    &_img
+      width: 100%
+@media (max-width: 767px)
+  .choice
+    min-height: 600px
+    padding: 40px 0
+@media (max-width: 576px)
+  .choice
+    padding: 25px 0 33px 0
+    min-height: 390px
+    background: #000
+    .section
+      &_title
+        display: none
+      &_subtitle
+        display: none
+    &_img
+      margin-top: 35px
+    &_descr
+      margin-top: 23px
+      color: #ffffff
+      font-size: 17px
+      font-weight: 300
+      line-height: 24px
+    .black
+      display: none
