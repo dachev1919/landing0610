@@ -1,0 +1,41 @@
+.fWebinar
+  min-height: 515px
+  padding: 89px 20px 64px 20px
+  &_img
+    display: block
+    margin: auto
+  &_title
+    text-align: center
+    margin-top: 37px
+    color: #252525
+    font-size: 30px
+    font-weight: 400
+    text-transform: uppercase
+  &_subtitle
+    color: $primary-light
+    margin-top: 30px
+    font-size: 36px
+    font-weight: 400
+    text-align: center
+    text-transform: uppercase
+  &_text
+    color: $primary
+    margin-top: 25px
+    font-size: 23px
+    font-weight: 400
+    line-height: 20px
+    text-align: center
+@media (max-width: 576px)
+  .fWebinar
+    padding: 64px 20px
+    &_text
+      font-size: 16px
+      margin-top: 20px
+    &_subtitle
+      margin-top: 25px
+      font-size: 30px
+    &_title
+      margin-top: 30px
+      font-size: 25px
+    &_img
+      width: 80%

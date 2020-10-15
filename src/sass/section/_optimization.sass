@@ -1,0 +1,48 @@
+.optimization
+  position: relative
+  min-height: 550px
+  padding: 102px 0 107px 0
+  &_title
+    margin-left: 391px
+    color: $primary-light
+    font-size: 29px
+    font-weight: 400
+    text-transform: uppercase
+  &_text
+    margin-left: 391px
+    margin-top: 25px
+    color: $primary
+    font-size: 17px
+    line-height: 27px
+    font-weight: 300
+    font-weight: 300
+    span
+      font-weight: 700
+  &_img
+    position: absolute
+    z-index: -1
+    padding-top: 100px
+    left: -170px
+    height: 100%
+
+@media (max-width: 1200px)
+  .optimization
+    &_img
+      left: -30%
+@media (max-width: 992px)
+  .optimization
+    &_img
+      padding-top: 140px
+      left: -35%
+    &_text
+      font-size: 15px
+      line-height: 18px
+@media (max-width: 768px)
+  .optimization
+    min-height: 320px
+    padding: 50px 20px
+    &_img
+      display: none
+    &_text, &_title
+      text-align: center
+      margin-left: 0

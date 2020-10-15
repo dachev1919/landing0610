@@ -1,0 +1,58 @@
+.waiting
+  padding-top: 85px
+  padding-bottom: 75px
+  background-color: #efefef
+  min-height: 604px
+  &_header
+    font-size: 30px
+    font-weight: 400
+    text-transform: uppercase
+    text-align: center
+    color: #252525
+  &_divider
+    width: 217px
+    height: 4px
+    background-color: #f9bf3b
+    margin: 18px auto 0
+  &_subheader
+    margin-top: 17px
+    color: #4a4a4a
+    font-size: 23px
+    font-weight: 400
+    text-align: center
+  &_wrapper
+    display: flex
+    justify-content: space-between
+    margin-top: 45px
+  &_item
+    width: 339px
+    text-align: center
+  &_img
+    width: 100%
+  &_descr
+    margin-top: 29px
+    color: #4a4a4a
+    font-size: 15px
+    font-weight: 300
+    line-height: 21px
+
+@media (max-width: 1200px)
+  .waiting
+    &_img
+      width: 90%
+    &_item
+      width: 300px
+@media (max-width: 768px)
+  .waiting
+    &_header
+      font-size: 25px
+    &_subheader
+      font-size: 20px
+    &_wrapper
+      flex-direction: column
+      align-items: center
+    &_descr
+      margin: 10px 0 40px 0
+      font-size: 25px
+      line-height: 30px
+@media (max-width: 576px)

@@ -1,63 +1,19 @@
+// подключение шрифтов
+
+// переменные цветов
+@import "colors"
+// главная настройка
 @import "grid"
-@import "section/header"
+// настройка шрифтов
+@import "fonts"
+// подключение всех секций
 @import "section/promo"
-@import "section/reason"
-@import "section/mobile"
-@import "section/car"
-@import "section/require"
-@import "section/map"
+@import "section/waiting"
+@import "section/optimization"
+@import "section/finish"
+@import "section/present"
+@import "section/fWebinar"
 @import "section/footer"
+@import "section/pageup"
 
-=btn_hover
-  &:hover
-    background-image: none
-    background-color: #1eacc7
-.section
-  &_label
-    position: relative
-    margin: 0 auto 38px auto
-    height: 24px
-    width: 112px
-    padding: 5px 12px
-    background-color: #000000
-    color: #ffffff
-    font-size: 11px
-    font-weight: 300
-    text-transform: uppercase
-    text-align: center
-    z-index: 2
-    &_white
-      background-color: #fff
-      color: #000
-  &_title
-    color: #222222
-    font-size: 38px
-    font-weight: 700
-    text-transform: uppercase
-    text-align: center
-    z-index: 2
-    &_white
-      color: #ffffff
-  &_subtitle
-    color: #222222
-    font-size: 17px
-    font-weight: 400
-    text-transform: uppercase
-    text-align: center
-    z-index: 2
-    &_white
-      color: #ffffff
 
-.subheader
-  &_btn
-    +btn_hover
-.promo
-  &_btn
-    +btn_hover
-
-@media (max-width: 575px)
-  .section_label
-    margin: 0 auto
-  .section_title
-    font-size: 15px
-    margin-top: 15px
